@@ -36,5 +36,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/1zNonMb.png)
+![](https://i.imgur.com/TC8dJSK.png)
 > 可以瞭解訪客／使用者與網站的互動情形
