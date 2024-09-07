@@ -1,6 +1,6 @@
 @extends('LaravelUserMonitoring::layouts.master')
 
-@section('title', 'Authentication Monitoring')
+@section('title', __('Authentication Monitoring'))
 
 @section('content')
     <div class="mt-7 overflow-x-auto">

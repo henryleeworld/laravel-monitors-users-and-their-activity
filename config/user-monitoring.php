@@ -2,6 +2,15 @@
 
 return [
     /*
+     * Configurations.
+     */
+    'config' => [
+        'routes' => [
+            'file_path' => 'routes/user-monitoring.php',
+        ],
+    ],
+
+    /*
      * User properties.
      *
      * You can customize the user guard, table, foreign key, and ... .
@@ -42,14 +51,19 @@ return [
         'table' => 'visits_monitoring',
 
         /*
-         * If you want to disable visit monitoring, you can change it to false.
+         * If you want to disable visit monitoring, set it to false.
          */
         'turn_on' => true,
 
         /*
+         * If you want to disable visit monitoring in Ajax mode, set it to false.
+         */
+        'ajax_requests' => true,
+
+        /*
          * You can specify pages not to be monitored.
          */
-        'expect_pages' => [
+        'except_pages' => [
             // 'home',
         ],
 
@@ -78,7 +92,7 @@ return [
         'on_destroy'    => true,
         'on_read'       => true,
         'on_restore'    => false, // Release for next version :)
-        'on_replicate'  => false, // Release for next version :)
+        'on_replicate'  => false,
     ],
 
     /*

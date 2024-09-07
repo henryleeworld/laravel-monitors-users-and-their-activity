@@ -1,4 +1,4 @@
-# Laravel 10 監控使用者及其活動
+# Laravel 11 監控使用者及其活動
 
 引入 binafy 的 laravel-user-monitoring 套件來擴增監控使用者及其活動，立即追蹤使用者網頁訪問、操作和登入／登出。
 
@@ -36,5 +36,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/TC8dJSK.png)
+![](https://i.imgur.com/PH6z4pt.png)
 > 可以瞭解訪客／使用者與網站的互動情形
