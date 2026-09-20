@@ -42,6 +42,7 @@ return new class extends Migration
             $table->string('device');
             $table->string('ip');
             $table->text('page');
+
             $table->timestamps();
         });
     }
